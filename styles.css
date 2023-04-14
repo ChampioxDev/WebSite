@@ -19,21 +19,6 @@ body {
     background-color: #636363;
 }
 
-.header_button_right:hover {
-    background-color: #636363;
-}
-
-.header_button_right {
-    display: flex;
-    height: 50px;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 20px;
-    padding-top: 0px;
-    float: right;
-}
-
 .header_button {
     display: flex;
     height: 50px;
