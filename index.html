@@ -3,7 +3,7 @@
 
     <head>
 
-        <link rel="icon" type="icon/x-icon" href="DevIcon__White.ico">
+        <link rel="icon" type="icon/x-icon" href="icons/DevIcon__White.ico">
         <title>Max G&ouml;n&uuml;l</title>
         
         <link href="styles.css" rel="stylesheet">
@@ -11,26 +11,29 @@
 
     </head>
 
-    <body>
+    <body onload="load()">
             <div id="header" class="header">
-                <a href="index.html"><div style="float:left; padding-right: 10px;"><img src="DevIcon__White.ico" height="50px" width="50px"></div></a>
+                <a href="index.html"><div style="float:left; padding-right: 10px;"><img src="icons/DevIcon__White.ico" height="50px" width="50px"></div></a>
                 
                 <div class="header_button" style="margin-right: 20px;"><a href="#contact">Kontakt</a></div>
                 <div class="header_button"><a href="#myProj">Meine Projekte</a></div>
                 <div class="header_button"><a href="#aboutMe">&Uuml;ber mich</a></div>
             </div>
-            <div id="aboutMe" class="aboutMe">
+            <div id="aboutMe" class="section">
                 <h1>&Uuml;ber mich</h1>
-                Ich bin Max.
+                Ich bin Max Ersin G&ouml;n&uuml;l und bin <span id="alter"></span> Jahre alt.
             </div>
-            <div id="myProj" class="aboutMe">
+            <div id="myProj" class="section">
                 <h1>Meine Projekte</h1>
                     - Diese WebSite<br>
                     - Java: Rechner f&uuml;r Hypixel Skyblock
             </div>
-            <div id="contact" class="aboutMe">
+            <div id="contact" class="section">
                 <h1>Kontakt</h1>
-                GitHub: @ChampioxDev
+                <div id="contacts">
+                    <a href="https://github.com/ChampioxDev" style="margin-right:10px;"><img src="icons/github.png" width="50px" height="50px"></a>
+                    <a href="mailto:max.e.goenuel@gmail.com" style="margin-right:10px;"><img src="icons/email.png" width="50px" height="50px"></a>
+                </div>
             </div>
     </body>
 
