@@ -42,9 +42,26 @@ a{
 
 .section {
     color: #000000;
-    padding: 50px;
+    padding: 30px;
+    padding-top: 20px;
     background-color: #cccccc;
-    margin: 50px;
-    padding-top: 40px;
+    margin: 30px;
+    margin-bottom: 0px;
     border-radius: 10px;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.myProj {
+    flex-grow: 16;
+    margin-right: 0px;
+}
+
+.contact {
+    flex-grow: 5;
 }
