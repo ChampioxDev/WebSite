@@ -1,14 +1,16 @@
-body {
+body, html {
     font-family: Helvetica;
     margin: 0px;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    height: 100%;
 }
 
+/* No Scrollbar*/
 body::-webkit-scrollbar {
     display: none;
 }
-
+/* HEADER */
 .header {
     background-color: #2f2f2f;
     color: #FFFFFF;
@@ -24,7 +26,6 @@ body::-webkit-scrollbar {
 .header_button:hover {
     background-color: #636363;
 }
-
 .header_button {
     display: flex;
     height: 50px;
@@ -35,11 +36,13 @@ body::-webkit-scrollbar {
     float: right;
 }
 
+/* improve links */
 a{
     text-decoration: none;
     color: inherit;
 }
 
+/* textboxes */
 .section {
     color: #000000;
     padding: 30px;
@@ -53,15 +56,34 @@ a{
 
 .flex-container {
     display: flex;
-    flex-direction: row;
     width: 100%;
 }
 
 .myProj {
     flex-grow: 16;
     margin-right: 0px;
+    padding-bottom: 20px;
 }
 
 .contact {
     flex-grow: 5;
+    padding-bottom: 20px;
+}
+
+/* light and dark mode */
+.lightdark {
+    background-color: #999999;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    margin:5px;
+    display: flex;
+    right: 5px;
+    bottom: 5px;
+    padding: 10px;
+    position: absolute;
+}
+
+.lightdark:hover {
+    background-color: #646464;
 }

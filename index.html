@@ -9,7 +9,7 @@
         <script src="app.js"></script>
 
     </head>
-    <body onload="load()">
+    <body onload="load()" id="body">
         <div id="header" class="header">
             <a href="index.html"><div style="float:left; padding-right: 10px; margin-left: 10px;"><img src="icons/DevIcon__White.ico" height="50px" width="50px"></div></a>
             
@@ -20,7 +20,7 @@
         <div id="aboutMe" class="section">
             <h1>&Uuml;ber mich</h1>
             <span style="width:50%">
-                Ich bin Max Ersin G&ouml;n&uuml;l und bin <span id="alter"></span> Jahre alt.
+                Ich bin Max Ersin G&ouml;n&uuml;l und <span id="alter"></span> Jahre alt.
             </span>
         </div>
         <div class="flex-container">
@@ -32,10 +32,11 @@
             <div id="contact" class="section contact">
                 <h1>Kontakt</h1>
                 <div id="contacts">
-                    <a href="https://github.com/ChampioxDev" style="margin-right:10px;"><img src="icons/github.png" width="50px" height="50px"></a>
-                    <a href="mailto:max.e.goenuel@gmail.com" style="margin-right:10px;"><img src="icons/email.png" width="50px" height="50px"></a>
+                    <a href="https://github.com/ChampioxDev" style="margin-right:10px; margin: 2px;"><img src="icons/github.png" width="50px" height="50px"></a>
+                    <a href="mailto:max.e.goenuel@gmail.com" style="margin-right:10px; margin: 2px;"><img src="icons/email.png" width="50px" height="50px"></a>
                 </div>
             </div>
         </div>
+        <div id="lightdark" onclick="toggleLightMode()" class="lightdark" height="30px" width="30px"><img src="icons/lightdark.png"></div>
     </body>
 </html>
